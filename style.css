@@ -1,0 +1,426 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1272px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+body {
+    max-width: 100%;
+    height: 100vh;
+    background: rgb(48, 44, 66);
+}
+
+
+/* header_start */
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_wrapper_imgs {
+    display: flex;
+    gap: 15px;
+}
+
+.header_wrapper_item {
+    display: flex;
+    list-style: none;
+    gap: 42px;
+    padding-top: 54px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.header_wrapper_btn {
+    cursor: pointer;
+    width: 154px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-top: 34px;
+    background-color: transparent;
+}
+
+
+.header_wrapper_btns {
+    width: 155px;
+    height: 48px;
+    border-radius: 40px;
+    background: linear-gradient(90.00deg, rgb(129, 118, 175), rgb(192, 183, 232) 100%);
+    color: rgb(52, 48, 69);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-top: 34px;
+    border: none;
+}
+
+
+.header_wrapper_button {
+    display: flex;
+    gap: 38px;
+}
+
+/* header_end */
+
+/* hero_start */
+.hero {
+    background: rgb(48, 44, 66);
+    padding-top: 150px;
+}
+
+.hero_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.hero_wrapper_title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.hero_wrapper_suptitle {
+    padding-top: 36px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.hero_wrapper_btn {
+    margin-top: 66px;
+    width: 214px;
+    height: 48px;
+    border-radius: 40px;
+    background: linear-gradient(90.00deg, rgb(129, 118, 175), rgb(192, 183, 232) 100%);
+    color: rgb(52, 48, 69);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+}
+/* hero_end */
+
+
+/* about_start */
+.about_wrapper {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_wrapper_title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.about_wrapper_img {
+    margin-top: 100px;
+}
+
+.about_wrapper_titles {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-top: 111px;
+}
+
+
+.about_wrapper_suptitle {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.about_wrapper_titl {
+    padding-top: 151px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.about_wrapper_suptitles {
+    padding-top: 42px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.about_wrapper_btn {
+    width: 214px;
+    height: 48px;
+    border-radius: 40px;
+
+    background: linear-gradient(90.00deg, rgb(129, 118, 175), rgb(192, 183, 232) 100%);
+    color: rgb(52, 48, 69);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-top: 28px;
+}
+
+.about_wrapper_suptitl {
+    padding-top: 179px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* about_end */
+
+.self_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 110px;
+}
+
+.self_wrapper_item {
+
+    width: 350px;
+    height: 511px;
+    border-radius: 40px;
+    background: radial-gradient(50.00% 50.00% at 50% 50%, rgb(67, 61, 96), rgb(33, 30, 46) 100%);
+
+}
+
+.self_wrapper_img {
+    margin-left: 46px;
+    margin-top: 25px;
+}
+
+.self_wrapper_title {
+    padding-top: 21px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    padding-left: 76px;
+}
+
+.self_wrapper_line {
+    margin-top: 17px;
+    width: 168px;
+    height: 0;
+    border: 1px solid rgba(192, 183, 232, 0.33);
+    margin-left: 75px;
+}
+
+
+.self_wrapper_suptitle {
+    padding-top: 21px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    padding-left: 25px;
+}
+
+.self_wrapper_btn {
+    margin-top: 35px;
+    width: 154px;
+    height: 48px;
+    border-radius: 40px;
+    border: none;
+    background: linear-gradient(90.00deg, rgb(129, 118, 175), rgb(192, 183, 232) 100%);
+    color: rgb(52, 48, 69);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-left: 78px;
+}
+
+.foto_wrapper {
+    padding-top: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.build {
+    margin-top: 100px;
+}
+
+.vr_wrapper {
+
+    width: 1275px;
+    height: 1008px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: radial-gradient(50.00% 50.00% at 50% 50%, rgb(64, 58, 95), rgb(33, 30, 46) 100%);
+    margin-top: 112px;
+}
+
+.vr_wrapper_title {
+    text-align: center;
+    padding-top: 90px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.vr_wrapper_suptitle {
+    padding-top: 51px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+}
+
+.vr_wrapper_item {
+    display: flex;
+    gap: 10px;
+    margin-left: 106px;
+}
+
+.vr_wrapper_item_input {
+    width: 524px;
+    height: 72px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    padding-left: 42px;
+    background-color: transparent;
+    margin-top: 39px;
+}
+
+.vr_wrapper_input {
+    width: 1058px;
+    height: 72px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    background-color: transparent;
+    margin-top: 40px;
+    justify-content: center;
+    padding-left: 42px;
+    margin-left: 106px;
+}
+
+.vr_item_input {
+    width: 1058px;
+    height: 210px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    padding-left: 42px;
+    margin-top: 40px;
+    margin-left: 106px;
+}
+
+.footer {
+    padding-top: 130px;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_wrapper_item {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.footer_wrapper_item_suptitle {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-top: 13px;
+}
+
+.footer_wrapper_item_title {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.footer_wrapper_item_btn {
+    margin-top: 120px;
+    width: 214px;
+    height: 48px;
+    border-radius: 40px;
+    border: none;
+    background: linear-gradient(90.00deg, rgb(129, 118, 175), rgb(192, 183, 232) 100%);
+    color: rgb(52, 48, 69);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+}
+
+.footer_line {
+    width: 1269px;
+    height: 0;
+    margin-top: 81px;
+    color: #fff;
+}
+
+.footer_end {
+    padding-top: 49px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: center;
+}
